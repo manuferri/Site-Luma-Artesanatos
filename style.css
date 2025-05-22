@@ -1,22 +1,29 @@
 header {
-    border: solid black;
+    border: solid #fff8f1;
     padding: 20px;
-    background-color: rgb(170, 59, 77);
-    font-family: dancing-script;
+    background-color: #a6485f;
+    color:#fff8f1;
+}
+
+header h1 {
+    color: #fff8f1;
 }
 
 body {
-    background-color: pink;
+    background-color: #fcdde1;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    color: 	#444;
+    font-family: 'Dancing Script', cursive;
 }
 
 footer {
     margin-top: 30px;
     padding: 10px;
-    background-color: rgb(170, 59, 77);
+    background-color: #a6485f;
+    color:#fff8f1;
 }
 
 nav {
@@ -27,7 +34,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #fff8f1;
 }
 
 li {
@@ -43,11 +50,16 @@ li a {
     color: black;
 }
 
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
 .cover {
     display: flex;
-    flex-wrap: wrap; /* quebra a linha quando necessário */
-    justify-content: center; /* centraliza os elementos */
-    gap: 30px; /* espaço entre os boxes */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     padding: 20px;
 }
 
@@ -55,18 +67,18 @@ li a {
     width: 250px;
     padding: 15px;
     background-color: #fff8f1;
-    box-shadow: 1px 1px 5px rgba(1,1,1,1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
     text-align: center;
 }
 
 .box:hover {
-    transform: scale(1.03); 
+    transform: scale(1.03);
 }
 
 .box a {
     text-decoration: none;
-    color: black;
+    color: 	#444;
 }
 
 .box img {
@@ -75,33 +87,33 @@ li a {
 }
 
 .croche {
-    border: 2px solid rgb(168, 87, 168);
+    border: 2px solid rgb(185, 133, 185);
     border-radius: 15px;
 }
 
 .macrame {
-    border: 2px solid rgb(80, 80, 252);
+    border: 2px solid rgb(135, 159, 236);
     border-radius: 15px;
 }
 
 .bio {
     width: 500px;
     padding: 15px;
-    background-color: #fff8f1;
-    box-shadow: 1px 1px 5px rgba(1,1,1,1);
+    background-color:#fff8f1;
+    box-shadow: 1px 1px 5px rgba(1, 1, 1, 1);
     transition: transform 0.2s ease;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 10px;
 }
 
 .foto {
     width: 400px;
     height: 400px;
-    background-color: #fff8f1; 
+    background-color: #fff8f1;
     border-radius: 15px;
-    overflow: hidden; 
-    box-shadow: 1px 1px 5px rgba(1,1,1,1);
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgba(1, 1, 1, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,18 +122,24 @@ li a {
 .foto img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 15px;
 }
 
 .origem {
-    width: 700px;
+    width: 800px;
     height: 500px;
     padding: 15px;
     background-color: #fff8f1;
-    box-shadow: 1px 1px 5px rgba(1,1,1,1);
+    box-shadow: 1px 1px 5px rgba(1, 1, 1, 1);
     transition: transform 0.2s ease;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 10px;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    color: 	#444
 }
